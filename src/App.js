@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Hello from './components/Hello'
-import Message from './components/Message'
+import Hello from './components/Hello';
+import Message from './components/Message';
+import Counter from "./components/Counter";
+import FunctionEvent from './components/FunctionEvent';
+import ClassEvent from './components/ClassEvent';
 function App() {
   return (
     <div className="App">
@@ -20,7 +23,11 @@ function App() {
         </a>
       </header> */}
       <Hello/>
-      <Message/>
+      {/* <Message/> */}
+      <Message messagecode ="10"  messagecontent = "This is a message"/>
+      <Counter></Counter>
+      <FunctionEvent/>
+      <ClassEvent/>
     </div>
   );
 }
