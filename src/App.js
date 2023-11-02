@@ -5,6 +5,8 @@ import Message from './components/Message'
 import FunctionalCounter  from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
 import CondCompOutput from './components/CondCompOutput';
+import TernaryCondition from './components/TernaryCondition';
+import Product from './components/Product';
 function App() {
   return (
     <div className="App">
@@ -27,6 +29,8 @@ function App() {
       <FunctionalCounter/>
       <ConditionalComponent/>
       <CondCompOutput/>
+      <TernaryCondition/>
+      <Product/>
     </div>
   );
 }
