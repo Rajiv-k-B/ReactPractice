@@ -3,6 +3,8 @@ import './App.css';
 import Hello from './components/Hello'
 import Message from './components/Message'
 import FunctionalCounter  from './components/FunctionalCounter';
+import ConditionalComponent from './components/ConditionalComponent';
+import CondCompOutput from './components/CondCompOutput';
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,8 @@ function App() {
       <Hello/>
       <Message/>
       <FunctionalCounter/>
+      <ConditionalComponent/>
+      <CondCompOutput/>
     </div>
   );
 }
