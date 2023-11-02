@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from './components/Hello'
 import Message from './components/Message'
+import FunctionalCounter  from './components/FunctionalCounter';
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
       </header> */}
       <Hello/>
       <Message/>
+      <FunctionalCounter/>
     </div>
   );
 }
